@@ -259,6 +259,20 @@ while countryQuestion != "y" and countryQuestion != "n":
                 print("The USA has many interesting places to visit.")
             elif "uruguay" in countryConditionalY:
                 print("Uruguay has one of the best economies of the world.")
+            elif "argentina" in countryConditionalY:
+                print("Argentina is famous for its Dulce de Leche.")
+            elif "canada" in countryConditionalY:
+                print("Canada has one of the most welcoming policies for immigrants and refugees.")
+            elif "mexico" in countryConditionalY:
+                print("Mexico has one of the best cuisines of the world.")
+            elif "korea" in countryConditionalY:
+                print("The best tech companies come from Korea.")
+            elif "russia" in countryConditionalY:
+                print("Despite what people say about the cold in Russia, that's not same with the Russian people. They are all very welcoming.")
+            elif "italy" in countryConditionalY:
+                print("I see. Italian culture is not only about the food, it's super rich.")
+            elif "finland" in countryConditionalY:
+                print("The Finnish language is interesting, just as much as its music.")
             else:
                 print("I guess I don't know that country. I'm sorry.")
                 break
@@ -277,7 +291,23 @@ if countryQuestion == "y":
         print("The USA has many interesting places to visit.")
     elif "uruguay" in countryConditionalY:
         print("Uruguay has one of the best economies of the world.")
+    elif "argentina" in countryConditionalY:
+        print("Argentina is famous for its Dulce de Leche.")
+    elif "canada" in countryConditionalY:
+        print("Canada has one of the most welcoming policies for immigrants and refugees.")
+    elif "mexico" in countryConditionalY:
+        print("Mexico has one of the best cuisines of the world.")
+    elif "korea" in countryConditionalY:
+        print("The best tech companies come from Korea.")
+    elif "russia" in countryConditionalY:
+        print("Despite what people say about the cold in Russia, that's not same with the Russian people. They are all very welcoming.")
+    elif "italy" in countryConditionalY:
+        print("I see. Italian culture is not only about the food, it's super rich.")
+    elif "finland" in countryConditionalY:
+        print("The Finnish language is interesting, just as much as its music.")
     else:
         print("I guess I don't know that country. I'm sorry.")
 elif countryQuestion == "n":
     print("I understand. No problem.")
+print("It's been interesting talking to you. However, my code lines end here. Thank you.")
+print("talkerPy, 2022 - by renanMakoto")
