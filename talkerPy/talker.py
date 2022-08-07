@@ -223,6 +223,102 @@ if "scientist" and "researcher" in thirdQuestion:
             elif reQuestioning2 == "n":
                 break
 #=========================================SCIENTIST===========================================================================================================
+#=========================================COOK================================================================================================================
+if "cook" and "chef" in thirdQuestion:
+    print("That's nice. So, you feed a lot of people with good recipes.")
+    thirdLoop = input("Do you feel happy cooking? [Y/N] ").lower()
+    if "y" in thirdLoop:
+        print("I thought so.")
+    elif "yes" in thirdLoop:
+        print("I thought so.")
+    elif "don't" in thirdLoop:
+        fourthLoop = input("Do you think about changing careers? [Y/N] ").lower()
+        if fourthLoop == "y":
+            print("Nice.")
+        elif fourthLoop == "yes":
+            print("Nice.")
+        elif fourthLoop == "n":
+            print("Well, ok, then.")
+        elif fourthLoop == "no":
+            print("Well, ok, then.")
+    elif "no" in thirdLoop:
+        fourthLoop = input("Do you think about changing careers? [Y/N] ").lower()
+        if fourthLoop == "y":
+            print("Nice.")
+        elif fourthLoop == "yes":
+            print("Nice.")
+        elif fourthLoop == "n":
+            print("Well, ok, then.")
+        elif fourthLoop == "no":
+            print("Well, ok, then.")
+    elif "n" in thirdLoop:
+        fourthLoop = input("Do you think about changing careers? [Y/N] ").lower()
+        if fourthLoop == "y":
+            print("Nice.")
+        elif fourthLoop == "yes":
+            print("Nice.")
+        elif fourthLoop == "n":
+            print("Well, ok, then.")
+        elif fourthLoop == "no":
+            print("Well, ok, then.")
+    else:
+        reQuestioning = input("Please, type only 'Y' or 'N', so I can understand better. It can be lower case or upper case.\nSo, do you feel happy cooking? [Y/N] ").lower()
+        while reQuestioning != "y" and reQuestioning != "n":
+            print("Error")
+            reQuestioning2 = input("Let's try again. I can only understand 'Y' or 'N'. \nSo, do you feel happy cooking? [Y/N] ").lower()
+            if reQuestioning2 == "y":
+                break
+            elif reQuestioning2 == "n":
+                break
+#=========================================COOK================================================================================================================
+#=========================================PSYCHOLOGIST========================================================================================================
+if "psychologist" and "therapist" in thirdQuestion:
+    print("That's very important. People need other people to talk to, which is something, machines can't do. Even the most interesting AI won't do it.")
+    thirdLoop = input("I suppose you feel satisfied when you know you helped many people through counseling, do you? [Y/N] ").lower()
+    if "y" in thirdLoop:
+        print("I thought so.")
+    elif "yes" in thirdLoop:
+        print("I thought so.")
+    elif "don't" in thirdLoop:
+        fourthLoop = input("Do you think about changing careers? [Y/N] ").lower()
+        if fourthLoop == "y":
+            print("Nice.")
+        elif fourthLoop == "yes":
+            print("Nice.")
+        elif fourthLoop == "n":
+            print("Well, ok, then.")
+        elif fourthLoop == "no":
+            print("Well, ok, then.")
+    elif "no" in thirdLoop:
+        fourthLoop = input("Do you think about changing careers? [Y/N] ").lower()
+        if fourthLoop == "y":
+            print("Nice.")
+        elif fourthLoop == "yes":
+            print("Nice.")
+        elif fourthLoop == "n":
+            print("Well, ok, then.")
+        elif fourthLoop == "no":
+            print("Well, ok, then.")
+    elif "n" in thirdLoop:
+        fourthLoop = input("Do you think about changing careers? [Y/N] ").lower()
+        if fourthLoop == "y":
+            print("Nice.")
+        elif fourthLoop == "yes":
+            print("Nice.")
+        elif fourthLoop == "n":
+            print("Well, ok, then.")
+        elif fourthLoop == "no":
+            print("Well, ok, then.")
+    else:
+        reQuestioning = input("Please, type only 'Y' or 'N', so I can understand better. It can be lower case or upper case.\nSo, I suppose you feel satisfied when you know you helped many people through counseling, do you? [Y/N] ").lower()
+        while reQuestioning != "y" and reQuestioning != "n":
+            print("Error")
+            reQuestioning2 = input("Let's try again. I can only understand 'Y' or 'N'. \nSo, I suppose you feel satisfied when you know you helped many people through counseling, do you? [Y/N] ").lower()
+            if reQuestioning2 == "y":
+                break
+            elif reQuestioning2 == "n":
+                break
+#=========================================PSYCHOLOGIST========================================================================================================
 #=========================================RANDOM QUESTIONS====================================================================================================
 freeTimeQuestion = input("What do you like to do in your free time? ").lower()
 if "kill" and "killing" and "murder" and "murdering" and "crime" and "illegal" and "rob" in freeTimeQuestion:
@@ -309,5 +405,21 @@ if countryQuestion == "y":
         print("I guess I don't know that country. I'm sorry.")
 elif countryQuestion == "n":
     print("I understand. No problem.")
-print("It's been interesting talking to you. However, my code lines end here. Thank you.")
+studyingQuestion = input("Is there anything you like to study? [Y/N] ").lower()
+while studyingQuestion != "y" and studyingQuestion != "n":
+    print("Error")
+    studyLoop = input("Let's try again. I can only understand 'Y' or 'N'. \nSo, is there anything you like to study? [Y/N] ").lower()
+    if "y" and "yes" in studyLoop:
+        studyConditionalY = input("I see. What is it? Please, only type the name of it. ").lower()
+        if "english" in studyConditionalY:
+            print("English is a very interesting subject.")
+        elif "history" in studyConditionalY:
+            print("When study History, you're studying the world's history.")
+        elif "science" in studyConditionalY:
+            print("Science is the beginning of us. It's understanding ourselves.")
+    elif "n" and "no" in studyLoop:
+        print("Ok.")
+    else:
+        print("Interesting.")
+print(f"It's been interesting talking to you, {name}. However, my code lines end here. Thank you.")
 print("talkerPy, 2022 - by renanMakoto")
