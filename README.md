@@ -1,2 +1,2 @@
 # talkerPy
-A chatbot I am currently developing to use with my students.
+A amateur simply coded chatbot I am currently developing to play using the terminal and an IDE with my friends.
