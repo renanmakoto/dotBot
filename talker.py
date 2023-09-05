@@ -1107,7 +1107,7 @@ while studyingQuestion != "y" and studyingQuestion != "n":
             print("English is a very interesting subject.")
         elif "history" in studyConditionalY:
             sleep(1)
-            print("===============================================================================================================")
+            print("=======================================================================================")
             print("When study History, you're studying the world's history.")
         elif "science" in studyConditionalY:
             sleep(1)
