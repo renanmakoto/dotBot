@@ -1099,11 +1099,11 @@ while studyingQuestion != "y" and studyingQuestion != "n":
     studyLoop = input("Let's try again. I can only understand 'Y' or 'N'. \nSo, is there anything you like to study? [Y/N] ").lower()
     if "y" and "yes" in studyLoop:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         studyConditionalY = input("I see. What is it? Please, only type the name of it. ").lower()
         if "english" in studyConditionalY:
             sleep(1)
-            print("===============================================================================================================")
+            print("=======================================================================================")
             print("English is a very interesting subject.")
         elif "history" in studyConditionalY:
             sleep(1)
