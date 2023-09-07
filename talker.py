@@ -1095,7 +1095,7 @@ while studyingQuestion != "y" and studyingQuestion != "n":
     print("===============================================================================================================")
     print("\033[93mError")
     sleep(1)
-    print("\033[0m===============================================================================================================")
+    print("\033[0m=======================================================================================")
     studyLoop = input("Let's try again. I can only understand 'Y' or 'N'. \nSo, is there anything you like to study? [Y/N] ").lower()
     if "y" and "yes" in studyLoop:
         sleep(1)
