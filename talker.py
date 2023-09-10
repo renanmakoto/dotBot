@@ -1088,7 +1088,7 @@ elif countryQuestion == "n":
     print("===============================================================================================================")
     print("I understand. No problem.")
 sleep(1)
-print("===============================================================================================================")
+print("=======================================================================================")
 studyingQuestion = input("Is there anything you like to study? [Y/N] ").lower()
 while studyingQuestion != "y" and studyingQuestion != "n":
     sleep(1)
