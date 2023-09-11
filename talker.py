@@ -1081,7 +1081,7 @@ if countryQuestion == "y":
         print("Germany has a rich gastronomical culture.")
     else:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         print("I guess I don't know that country. I'm sorry.")
 elif countryQuestion == "n":
     sleep(1)
