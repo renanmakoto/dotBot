@@ -1069,7 +1069,7 @@ if countryQuestion == "y":
         print("I see. Italian culture is not only about the food, it's super rich.")
     elif "finland" in countryConditionalY:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         print("The Finnish language is interesting, just as much as its music.")
     elif "cuba" in countryConditionalY:
         sleep(1)
