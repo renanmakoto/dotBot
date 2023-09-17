@@ -1057,7 +1057,7 @@ if countryQuestion == "y":
         print("Mexico has one of the best cuisines of the world.")
     elif "korea" in countryConditionalY:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         print("The best tech companies come from Korea.")
     elif "russia" in countryConditionalY:
         sleep(1)
