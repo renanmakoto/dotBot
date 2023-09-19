@@ -1049,7 +1049,7 @@ if countryQuestion == "y":
         print("Argentina is famous for its Dulce de Leche.")
     elif "canada" in countryConditionalY:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         print("Canada has one of the most welcoming policies for immigrants and refugees.")
     elif "mexico" in countryConditionalY:
         sleep(1)
