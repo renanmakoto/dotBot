@@ -1029,11 +1029,11 @@ if countryQuestion == "y":
         print("Japan is a nice country.")
     elif "brazil" in countryConditionalY:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         print("Brazil has beautiful places to spend vacation.")
     elif "china" in countryConditionalY:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         print("China has a very technological companies.")
     elif "usa" in countryConditionalY:
         sleep(1)
