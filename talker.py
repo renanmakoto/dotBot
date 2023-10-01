@@ -1016,7 +1016,7 @@ while countryQuestion != "y" and countryQuestion != "n":
                 break
     elif countryLoop == "n":
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         print("I understand. No problem.")
         break
 if countryQuestion == "y":
