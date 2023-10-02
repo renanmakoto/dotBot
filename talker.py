@@ -1011,7 +1011,7 @@ while countryQuestion != "y" and countryQuestion != "n":
                 print("Germany has a rich gastronomical culture.")
             else:
                 sleep(1)
-                print("===============================================================================================================")
+                print("=======================================================================================")
                 print("I guess I don't know that country. I'm sorry.")
                 break
     elif countryLoop == "n":
