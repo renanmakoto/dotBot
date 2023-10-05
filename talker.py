@@ -1003,7 +1003,7 @@ while countryQuestion != "y" and countryQuestion != "n":
                 print("The Finnish language is interesting, just as much as its music.")
             elif "cuba" in countryConditionalY:
                 sleep(1)
-                print("===============================================================================================================")
+                print("=======================================================================================")
                 print("Cuba has an interesting story and culture.")
             elif "germany" in countryConditionalY:
                 sleep(1)
