@@ -991,7 +991,7 @@ while countryQuestion != "y" and countryQuestion != "n":
                 print("The best tech companies come from Korea.")
             elif "russia" in countryConditionalY:
                 sleep(1)
-                print("===============================================================================================================")
+                print("=======================================================================================")
                 print("Despite what people say about the cold in Russia, that's not same with the Russian people. They are all very welcoming.")
             elif "italy" in countryConditionalY:
                 sleep(1)
