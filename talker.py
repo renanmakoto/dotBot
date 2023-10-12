@@ -983,7 +983,7 @@ while countryQuestion != "y" and countryQuestion != "n":
                 print("Canada has one of the most welcoming policies for immigrants and refugees.")
             elif "mexico" in countryConditionalY:
                 sleep(1)
-                print("===============================================================================================================")
+                print("=======================================================================================")
                 print("Mexico has one of the best cuisines of the world.")
             elif "korea" in countryConditionalY:
                 sleep(1)
