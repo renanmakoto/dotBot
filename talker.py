@@ -975,7 +975,7 @@ while countryQuestion != "y" and countryQuestion != "n":
                 print("Uruguay has one of the best economies of the world.")
             elif "argentina" in countryConditionalY:
                 sleep(1)
-                print("===============================================================================================================")
+                print("=======================================================================================")
                 print("Argentina is famous for its Dulce de Leche.")
             elif "canada" in countryConditionalY:
                 sleep(1)
