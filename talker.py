@@ -963,7 +963,7 @@ while countryQuestion != "y" and countryQuestion != "n":
                 print("Brazil has beautiful places to spend vacation.")
             elif "china" in countryConditionalY:
                 sleep(1)
-                print("===============================================================================================================")
+                print("=======================================================================================")
                 print("China has a very technological companies.")
             elif "usa" in countryConditionalY:
                 sleep(1)
