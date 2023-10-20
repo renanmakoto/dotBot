@@ -955,7 +955,7 @@ while countryQuestion != "y" and countryQuestion != "n":
             countryConditionalY = input("Interesting. Where would you like to go? ").lower()
             if "japan" in countryConditionalY:
                 sleep(1)
-                print("===============================================================================================================")
+                print("=======================================================================================")
                 print("Japan is a nice country.")
             elif "brazil" in countryConditionalY:
                 sleep(1)
