@@ -947,7 +947,7 @@ while countryQuestion != "y" and countryQuestion != "n":
     print("===============================================================================================================")
     print("\033[93mError")
     sleep(1)
-    print("\033[0m===============================================================================================================")
+    print("\033[0m=======================================================================================")
     countryLoop = input("Let's try again. I can only understand 'Y' or 'N'. \nSo, do you think about visiting another country? [Y/N] ").lower()
     if countryLoop == "y":
             sleep(1)
