@@ -940,7 +940,7 @@ elif "n" in fifthQuestion:
     print("===============================================================================================================")
     print("I suppose you don't know what I am.")
 sleep(1)
-print("===============================================================================================================")
+print("=======================================================================================")
 countryQuestion = input("Do you think about visiting another country? [Y/N] ").lower()
 while countryQuestion != "y" and countryQuestion != "n":
     sleep(1)
