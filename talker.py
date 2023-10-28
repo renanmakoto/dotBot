@@ -928,7 +928,7 @@ while fifthQuestion != "y" and fifthQuestion != "n":
         break
     elif fifthLoop == "n":
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         print("I suppose you don't know what I am.")
         break
 if "y" in fifthQuestion:
