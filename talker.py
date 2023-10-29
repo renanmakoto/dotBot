@@ -923,7 +923,7 @@ while fifthQuestion != "y" and fifthQuestion != "n":
     fifthLoop = input("Let's try again. I can only understand 'Y' or 'N'. \nSo, do you know what a chatbot is? [Y/N] ").lower()
     if fifthLoop == "y":
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         print("So, you know what I am.")
         break
     elif fifthLoop == "n":
