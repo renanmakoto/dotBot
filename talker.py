@@ -905,7 +905,7 @@ print("=========================================================================
 freeTimeQuestion = input("What do you like to do in your free time? ").lower()
 if "kill" and "killing" and "murder" and "murdering" and "crime" and "illegal" and "rob" in freeTimeQuestion:
    sleep(1)
-   print("===============================================================================================================")
+   print("=======================================================================================")
    print("That's not nice.")
 else:
    sleep(1)
