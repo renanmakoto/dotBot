@@ -892,7 +892,7 @@ if "data" and "dataengineer" in thirdQuestion:
             print("===============================================================================================================")
             print("\033[93mError")
             sleep(1)
-            print("\033[0m===============================================================================================================")
+            print("\033[0m=======================================================================================")
             reQuestioning2 = input("Let's try again. I can only understand 'Y' or 'N'. \nSo, although, you might feel satisfied with everything you do, are you happy doing it? I mean, you deal with a lot of numbers. [Y/N] ").lower()
             if reQuestioning2 == "y":
                 break
