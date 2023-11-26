@@ -845,7 +845,7 @@ if "data" and "dataengineer" in thirdQuestion:
             print("Well, ok, then.")
     elif "no" in thirdLoop:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         fourthLoop = input("Do you think about changing careers? [Y/N] ").lower()
         if fourthLoop == "y":
             sleep(1)
