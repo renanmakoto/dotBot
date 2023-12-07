@@ -821,7 +821,7 @@ if "data" and "dataengineer" in thirdQuestion:
         print("I thought so.")
     elif "yes" in thirdLoop:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         print("I thought so.")
     elif "don't" in thirdLoop:
         sleep(1)
