@@ -813,7 +813,7 @@ if "data" and "dataengineer" in thirdQuestion:
     print("===============================================================================================================")
     print("That's interesting. So, you probably know that I'm developed through a programming language called Python.")
     sleep(1)
-    print("===============================================================================================================")
+    print("=======================================================================================")
     thirdLoop = input("Although, you might feel satisfied with everything you do, are you happy doing it? I mean, you deal with a lot of numbers. [Y/N] ").lower()
     if "y" in thirdLoop:
         sleep(1)
