@@ -793,7 +793,7 @@ if "medical" and "doctor" in thirdQuestion:
             print("Well, ok, then.")
     else:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         reQuestioning = input("Please, type only 'Y' or 'N', so I can understand better. It can be lower case or upper case.\nSo, although, you might feel satisfied with everything you do, are you happy doing it? [Y/N] ").lower()
         while reQuestioning != "y" and reQuestioning != "n":
             sleep(1)
