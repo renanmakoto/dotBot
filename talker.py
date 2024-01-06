@@ -773,7 +773,7 @@ if "medical" and "doctor" in thirdQuestion:
             print("Well, ok, then.")
     elif "n" in thirdLoop:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         fourthLoop = input("Do you think about changing careers? [Y/N] ").lower()
         if fourthLoop == "y":
             sleep(1)
