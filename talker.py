@@ -749,7 +749,7 @@ if "medical" and "doctor" in thirdQuestion:
             print("Well, ok, then.")
         elif fourthLoop == "no":
             sleep(1)
-            print("===============================================================================================================")
+            print("=======================================================================================")
             print("Well, ok, then.")
     elif "no" in thirdLoop:
         sleep(1)
