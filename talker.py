@@ -721,7 +721,7 @@ if "medical" and "doctor" in thirdQuestion:
     print("===============================================================================================================")
     print("You have one of the most interesting jobs of the world. You get to see the human body and study it.")
     sleep(1)
-    print("===============================================================================================================")
+    print("=======================================================================================")
     thirdLoop = input("Although, you might feel satisfied with everything you do, are you happy doing it? [Y/N] ").lower()
     if "y" in thirdLoop:
         sleep(1)
