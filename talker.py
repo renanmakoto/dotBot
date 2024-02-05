@@ -708,7 +708,7 @@ if "firefighter" and "firemen" in thirdQuestion:
             print("===============================================================================================================")
             print("\033[93mError")
             sleep(1)
-            print("\033[0m===============================================================================================================")
+            print("\033[0m=======================================================================================")
             reQuestioning2 = input("Let's try again. I can only understand 'Y' or 'N'. \nSo, I understand people feel good when save others, but do you feel happy with everything that goes on with you? [Y/N] ").lower()
             if reQuestioning2 == "y":
                 break
