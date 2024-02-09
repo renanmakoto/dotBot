@@ -701,7 +701,7 @@ if "firefighter" and "firemen" in thirdQuestion:
             print("Well, ok, then.")
     else:
         sleep(1)
-        print("===============================================================================================================")
+        print("=======================================================================================")
         reQuestioning = input("Please, type only 'Y' or 'N', so I can understand better. It can be lower case or upper case.\nSo, I understand people feel good when save others, but do you feel happy with everything that goes on with you? [Y/N] ").lower()
         while reQuestioning != "y" and reQuestioning != "n":
             sleep(1)
