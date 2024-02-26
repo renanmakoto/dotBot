@@ -693,7 +693,7 @@ if "firefighter" and "firemen" in thirdQuestion:
             print("Nice.")
         elif fourthLoop == "n":
             sleep(1)
-            print("===============================================================================================================")
+            print("=======================================================================================")
             print("Well, ok, then.")
         elif fourthLoop == "no":
             sleep(1)
