@@ -14,36 +14,33 @@ def ask_yes_no_question(question):
             print_separator()
             print("\033[93mERROR\033[0m")
             sleep(1)
-            print_separator()
             print("Please, type only 'Y' or 'N'.")
 
 def ask_for_number(question):
     while True:
         print_separator()
         try:
-            return int(input(question))
+            return int(input(question + " "))
         except ValueError:
             print_separator()
             print("\033[93mERROR\033[0m")
             sleep(1)
-            print_separator()
             print("Please, type a number.")
             sleep(1)
 
 def ask_for_string(question):
     print_separator()
-    return input(question).lower()
+    return input(question + " ").strip().capitalize()
 
 def ask_for_string_with_choices(question, choices):
     while True:
         answer = ask_for_string(question)
-        if answer in choices:
+        if answer.lower() in choices:
             return answer
         print_separator()
         print("\033[93mERROR\033[0m")
         sleep(1)
-        print_separator()
-        print(f"Please, type one of the following: {', '.join(choices)}.")
+        print(f"Please, type one of the following: {', '.join(choices).capitalize()}.")
 
 def process_job_related_questions(name, job):
     satisfaction = ask_yes_no_question(f"Do you feel happy doing what you do, {job}?")
@@ -61,19 +58,19 @@ def process_job_related_questions(name, job):
             print_separator()
             print("Well, ok, then.")
             sleep(1)
+    print_separator()
 
 def main():
     print_separator()
     print("Hello, I'm Talker. A software program developed for talking to people.")
     sleep(1)
-    print_separator()
-    name = ask_for_string("What's your name? ")
+    name = ask_for_string("What's your name?")
     sleep(1)
     print_separator()
     print(f"Hello, {name}. It's nice to meet you.")
     sleep(1)
     
-    age = ask_for_number(f"How old are you, {name}? ")
+    age = ask_for_number(f"How old are you, {name}?")
     sleep(1)
     print_separator()
     print("Oh, I'm not sure if that's a young person or not.")
@@ -81,9 +78,9 @@ def main():
 
     is_young = ask_yes_no_question(f"Do you consider yourself a young person, {name}?")
     if is_young == 'y':
-        reason = ask_for_string(f"Really, {name}? Why do you consider yourself young? ")
+        reason = ask_for_string(f"Really, {name}? Why do you consider yourself young?")
     else:
-        reason = ask_for_string(f"Really, {name}? Why don't you consider yourself young? ")
+        reason = ask_for_string(f"Really, {name}? Why don't you consider yourself young?")
     
     print_separator()
     print(f"Ok, {name}. I think I understand what you mean.")
@@ -92,11 +89,10 @@ def main():
     print("Just please, try not to misspell any word. I'm still trying to understand everything people tell me.")
     sleep(1)
 
-    job = ask_for_string("What do you do for living? I mean, what's your job? ")
+    job = ask_for_string("What do you do for living? I mean, what's your job?")
     process_job_related_questions(name, job)
     
-    print_separator()
-    free_time = ask_for_string("What do you like to do in your free time? ")
+    free_time = ask_for_string("What do you like to do in your free time?")
     if any(word in free_time for word in ["kill", "killing", "murder", "murdering", "crime", "illegal", "rob"]):
         print_separator()
         print("That's not nice.")
@@ -137,7 +133,7 @@ def main():
             "germany": "Germany has a rich gastronomical culture."
         }
         print_separator()
-        print(country_responses.get(country, "I guess I don't know that country. I'm sorry."))
+        print(country_responses.get(country.lower(), "I guess I don't know that country. I'm sorry."))
     else:
         print_separator()
         print("I understand. No problem.")
@@ -156,7 +152,7 @@ def main():
             "chemistry": "Atoms and other particles are the base of what we are made of. Chemistry is awesome."
         }
         print_separator()
-        print(study_responses.get(subject, "Interesting."))
+        print(study_responses.get(subject.lower(), "Interesting."))
     else:
         print_separator()
         print("Ok.")
