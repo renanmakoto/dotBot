@@ -1,4 +1,4 @@
-<h1 align="center">talkerPy</h1>
+<h1 align="center">dotBot</h1>
 <p align="center">A amateur simply coded chatbot I am currently developing to use with the terminal.</p>
 
 <p align="center">You may simply copy the code into a Python file and run it with a IDE.</p>
