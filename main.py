@@ -4,7 +4,7 @@ import ip_searcher
 import phone_number_company
 import qr_terminal_saver
 import shutdown_and_restart
-import txtToAudio
+import txt_to_audio
 import url_shortener
 import youtube_downloader
 import pdf_converter
@@ -46,7 +46,7 @@ def main():
         elif choice == "5":
             shutdown_and_restart.shutdown_or_restart()
         elif choice == "6":
-            txtToAudio.text_to_speech()
+            txt_to_audio.text_to_speech()
         elif choice == "7":
             url_shortener.shorten_url()
         elif choice == "8":
