@@ -1,6 +1,4 @@
 from pytube import YouTube
-
-
 def download_youtube():
     link = input("Enter the YouTube video URL: ")
     path = input("Enter the directory where you want to save the video: ")
