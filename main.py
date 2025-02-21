@@ -3,7 +3,7 @@ import conversation
 import ip_searcher
 import phone_number_company
 import qr_terminal_saver
-import shutdownAndRestart
+import shutdown_and_restart
 import txtToAudio
 import url_shortener
 import youtube_downloader
@@ -44,7 +44,7 @@ def main():
         elif choice == "4":
             qr_terminal_saver.generate_qr()
         elif choice == "5":
-            shutdownAndRestart.shutdown_or_restart()
+            shutdown_and_restart.shutdown_or_restart()
         elif choice == "6":
             txtToAudio.text_to_speech()
         elif choice == "7":
